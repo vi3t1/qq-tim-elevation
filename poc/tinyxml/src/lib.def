@@ -1,0 +1,12 @@
+LIBRARY
+EXPORTS
+    ?NextSiblingElement@TiXmlNode@@QAEPAVTiXmlElement@@PBD@Z=_die@0
+    ?FirstChildElement@TiXmlNode@@QAEPAVTiXmlElement@@PBD@Z=_die@0
+    ??1TiXmlDocument@@UAE@XZ=_die@0
+    ?RootElement@TiXmlDocument@@QAEPAVTiXmlElement@@XZ=_die@0
+    ?GetText@TiXmlElement@@QBEPBDXZ=_die@0
+    ?Attribute@TiXmlElement@@QBEPBDPBD@Z=_die@0
+    ?Attribute@TiXmlElement@@QBEPBDPBDPAH@Z=_die@0
+    ?LoadXML@TiXmlDocument@@QAE_NPADHW4TiXmlEncoding@@@Z=_die@0
+    ??0TiXmlDocument@@QAE@XZ=_die@0
+    DllMain

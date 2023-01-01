@@ -1,0 +1,28 @@
+[package]
+name = "tinyxml"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.rhexdump]
+version = "0.1.1"
+
+[dependencies.windows]
+version = "0.44.0"
+features = [
+    "Win32_Foundation",
+    "Win32_System_LibraryLoader",
+    "Win32_System_Threading",
+    "Win32_System_SystemServices",
+    "Win32_System_Console"
+]
+
+[dependencies.windows-service]
+version = "0.5.0"
+
+[dependencies.windows-args]
+version = "0.2.0"
+
+[lib]
+crate-type = ["cdylib"]
